@@ -16,7 +16,6 @@ class TestArcher : public testing:Test {
 TEST_F(TestArcher, Test1) {
     Enemy *pointer = archer;
     ASSERT_EQ(archer->getMana(), pointer->getMana());
-    ASSERT_EQ(archer->getHealth(), pointer->getHealth());
 }
 
 TEST_F(TestArcher, Test2) {
@@ -37,7 +36,6 @@ class TestMelee : public testing:Test {
 TEST_F(TestMelee, Test1) {
     Enemy *pointer = melee;
     ASSERT_EQ(melee->getMana(), pointer->getMana());
-    ASSERT_EQ(melee->getHealth(), pointer->getHealt());
 }
 
 TEST_F(TestMelee, Test2) {
