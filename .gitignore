@@ -30,6 +30,9 @@
 *.exe
 *.out
 *.app
-tp-game.vcxproj
-tp-game.vcxproj.filters
+*.vcxproj
+*.vcxproj.filters
 *.user
+
+#IDE files
+*.idea
