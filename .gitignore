@@ -6,7 +6,6 @@
 *.lo
 *.o
 *.obj
-
 # Precompiled Headers
 *.gch
 *.pch
@@ -36,3 +35,11 @@
 
 #IDE files
 *.idea
+
+CMakeCache.txt
+Makefile
+bin/
+build/
+cmake_install.cmake
+CTestTestfile.cmake
+
