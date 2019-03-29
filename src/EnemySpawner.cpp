@@ -2,7 +2,6 @@
 #include <random>
 #include <stdexcept>
 #include <cstdlib>
-#include <ctime>
 #include <iostream>
 
 void EnemySpawner::AddEnemyFactory(EnemyFactory* EnemyFactory) {
@@ -11,7 +10,6 @@ void EnemySpawner::AddEnemyFactory(EnemyFactory* EnemyFactory) {
 
 
 Enemy* EnemySpawner::Spawn() {
-    std::cerr << EnemyFactories.size() << "\n";
 	if (EnemyFactories.size() == 0) {
 		throw std::out_of_range("Empty Spawner");
 	}
