@@ -1,4 +1,3 @@
-#pragma once
 #include <gtest/gtest.h>
 #include "Enemy/ArcherFactory.h"
 #include "Enemy/WarriorFactory.h"
@@ -31,4 +30,8 @@ TEST_F(TestWarriorFactory, Test1) {
     Enemy *warrior = warriorFactory->Create();
     ASSERT_EQ(dynamic_cast<Warrior *>(warrior)->GetType(), "snow");
     delete(warrior);
+}
+int main(int argc, char** argv) {
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
 }

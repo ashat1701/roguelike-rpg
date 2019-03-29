@@ -1,18 +1,24 @@
 #include <iostream>
 #include "EnemySpawner.h"
+#include "Enemy/ArcherFactory.h"
+#include "Enemy/WarriorFactory.h"
 
 int main() {
 	EnemySpawner Spawner;
 
-	EnemyFactory* ArcherFactory = new ArcherFactory();
-	Spawner.AddEnemyFactory(ArcherFactory);
+	EnemyFactory* archerFactory = new ArcherFactory("snow");
+	Spawner.AddEnemyFactory(archerFactory);
 
-	EnemyFactory* WarriorFactory = new WarriorFactory();
-	Spawner.AddEnemyFactory(WarriorFactory);
+	EnemyFactory* warriorFactory = new WarriorFactory("sand");
+	Spawner.AddEnemyFactory(warriorFactory);
 	std::cout << "how many enemies you want to spawn?" << std::endl;
 	int count; std::cin >> count;
 	for (int i = 0; i < count; ++i) {
-		std::cout << Spawner.Spawn()->Message() << std::endl;
+        Enemy *enemy = Spawner.Spawn();
+		std::cout << enemy->Message() << std::endl;
+        delete enemy;
 	}
+    delete archerFactory;
+    delete warriorFactory;
 	return 0;
 }

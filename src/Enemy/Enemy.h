@@ -12,7 +12,7 @@ public:
     void SetMana(int mana);
     void SetType(std::string type);
 	Enemy(const std::string& type);
-	virtual std::string Message() const;
+	virtual std::string Message() const = 0;
 protected:
 	int health;
 	int mana;

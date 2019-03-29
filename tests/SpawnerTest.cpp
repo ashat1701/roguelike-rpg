@@ -1,4 +1,3 @@
-#pragma once
 #include <gtest/gtest.h>
 #include "EnemySpawner.h"
 #include "Enemy/ArcherFactory.h"
@@ -23,4 +22,7 @@ TEST_F(TestSpawner, Test1) {
     // TODO: Fix this sh*t
 }
 
-
+int main(int argc, char** argv) {
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
+}

@@ -7,3 +7,8 @@ add_library(EnemyFactory STATIC Enemy/EnemyFactory.cpp)
 add_library(WarriorFactory STATIC Enemy/WarriorFactory.cpp)
 add_library(WorldState STATIC WorldState.cpp)
 add_library(EnemySpawner STATIC EnemySpawner.cpp)
+
+add_executable(main main.cpp)
+target_link_libraries(main EnemySpawner ArcherFactory WarriorFactory Enemy Warrior Archer)
+
+

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
 
-add_definitions(-Wall -std=c++0x -D HOME)
 SET(PROJECT_BINARY_DIR build)
+add_definitions(-Wall -std=c++0x -D HOME)
 SET (CMAKE_LIBRARY_OUTPUT_DIRECTORY
         ${PROJECT_BINARY_DIR}/bin
         CACHE PATH

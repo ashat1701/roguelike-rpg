@@ -42,10 +42,11 @@ CMakeCache.txt
 Makefile
 bin/
 build/
+lib/
 CMakeFiles/
 Debug/
 cmake_install.cmake
 CTestTestfile.cmake
 compile_commands.json
-
+Testing/
 *.ipch

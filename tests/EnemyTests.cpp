@@ -1,4 +1,3 @@
-#pragma once
 #include <gtest/gtest.h>
 #include "Enemy/Archer.h"
 #include "Enemy/Warrior.h"
@@ -41,4 +40,9 @@ TEST_F(TestWarrior, Test1) {
 
 TEST_F(TestWarrior, Test2) {
     ASSERT_EQ(warrior->GetMana(), 10);
+}
+
+int main(int argc, char** argv) {
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
 }
