@@ -40,6 +40,8 @@ CMakeCache.txt
 Makefile
 bin/
 build/
+CMakeFiles/
 cmake_install.cmake
 CTestTestfile.cmake
+compile_comands.json
 
