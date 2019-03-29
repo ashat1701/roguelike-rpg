@@ -36,6 +36,7 @@
 #IDE files
 *.idea
 *.vs
+*.sln
 
 CMakeCache.txt
 Makefile
