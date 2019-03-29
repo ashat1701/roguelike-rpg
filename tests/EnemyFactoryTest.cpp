@@ -15,6 +15,7 @@ class TestArcherFactory : public testing::Test {
 TEST_F(TestArcherFactory, Test1) {
     Enemy *archer = archerFactory->Create();
     ASSERT_EQ(dynamic_cast<Archer *>(archer)->GetType(), "snow");
+    delete(archer);
 }
 
 class TestWarriorFactory : public testing::Test {
@@ -27,6 +28,7 @@ class TestWarriorFactory : public testing::Test {
 };
 
 TEST_F(TestWarriorFactory, Test1) {
-    Enemy *archer = warriorFactory->Create();
-    ASSERT_EQ(dynamic_cast<Warrior *>(archer)->GetType(), "snow");
+    Enemy *warrior = warriorFactory->Create();
+    ASSERT_EQ(dynamic_cast<Warrior *>(warrior)->GetType(), "snow");
+    delete(warrior);
 }

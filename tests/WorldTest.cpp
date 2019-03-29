@@ -8,7 +8,7 @@ class TestWorld : public testing::Test {
         void SetUp() {
             state =  &(WorldState::GetInstance());
         }
-        void TearDown() { delete state; }
+        void TearDown() {}
 };
 
 TEST_F(TestWorld, Test1) {

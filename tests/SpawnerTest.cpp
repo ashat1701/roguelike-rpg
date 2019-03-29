@@ -16,8 +16,10 @@ class TestSpawner : public testing::Test {
 TEST_F(TestSpawner, Test1) {
     ArcherFactory *factory = new ArcherFactory("sand");
     spawner->AddEnemyFactory(factory);
-    Enemy *enemy = spawner->Spawn();
+    Enemy *enemy = spawner->Spawn(); 
+    delete(factory);
     ASSERT_NO_THROW(1 / (dynamic_cast<Archer *>(enemy)->GetType() == "sand"));
+    delete(enemy);
     // TODO: Fix this sh*t
 }
 

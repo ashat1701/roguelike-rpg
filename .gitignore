@@ -46,6 +46,6 @@ CMakeFiles/
 Debug/
 cmake_install.cmake
 CTestTestfile.cmake
-compile_comands.json
+compile_commands.json
 
 *.ipch
