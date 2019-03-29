@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/executeTests.dir/StartTests.cpp.o  -o ../../bin/executeTests -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread ../../lib/libEnemy.a ../../lib/libArcher.a ../../lib/libEnemyFactory.a ../../lib/libArcherFactory.a ../../lib/libWarrior.a ../../lib/libWarriorFactory.a ../../lib/libEnemySpawner.a ../../lib/libWorldState.a 

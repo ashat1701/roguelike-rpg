@@ -1,0 +1,3 @@
+/home/toor/tp_game_project/tests/build/CMakeFiles/rebuild_cache.dir
+/home/toor/tp_game_project/tests/build/CMakeFiles/executeTests.dir
+/home/toor/tp_game_project/tests/build/CMakeFiles/edit_cache.dir

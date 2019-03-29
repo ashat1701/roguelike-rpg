@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/WorldState.dir/WorldState.cpp.o -c /home/toor/tp_game_project/src/WorldState.cpp",
+  "file": "/home/toor/tp_game_project/src/WorldState.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/Enemy.dir/Enemy/Enemy.cpp.o -c /home/toor/tp_game_project/src/Enemy/Enemy.cpp",
+  "file": "/home/toor/tp_game_project/src/Enemy/Enemy.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/Warrior.dir/Enemy/Warrior.cpp.o -c /home/toor/tp_game_project/src/Enemy/Warrior.cpp",
+  "file": "/home/toor/tp_game_project/src/Enemy/Warrior.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/Archer.dir/Enemy/Archer.cpp.o -c /home/toor/tp_game_project/src/Enemy/Archer.cpp",
+  "file": "/home/toor/tp_game_project/src/Enemy/Archer.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/WarriorFactory.dir/Enemy/WarriorFactory.cpp.o -c /home/toor/tp_game_project/src/Enemy/WarriorFactory.cpp",
+  "file": "/home/toor/tp_game_project/src/Enemy/WarriorFactory.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/ArcherFactory.dir/Enemy/ArcherFactory.cpp.o -c /home/toor/tp_game_project/src/Enemy/ArcherFactory.cpp",
+  "file": "/home/toor/tp_game_project/src/Enemy/ArcherFactory.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/EnemySpawner.dir/EnemySpawner.cpp.o -c /home/toor/tp_game_project/src/EnemySpawner.cpp",
+  "file": "/home/toor/tp_game_project/src/EnemySpawner.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/src",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/EnemyFactory.dir/Enemy/EnemyFactory.cpp.o -c /home/toor/tp_game_project/src/Enemy/EnemyFactory.cpp",
+  "file": "/home/toor/tp_game_project/src/Enemy/EnemyFactory.cpp"
+},
+{
+  "directory": "/home/toor/tp_game_project/build/tests",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/./src    -Wall -std=c++0x -D HOME -o CMakeFiles/executeTests.dir/StartTests.cpp.o -c /home/toor/tp_game_project/tests/StartTests.cpp",
+  "file": "/home/toor/tp_game_project/tests/StartTests.cpp"
+}
+]

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libArcherFactory.a  CMakeFiles/ArcherFactory.dir/Enemy/ArcherFactory.cpp.o
+/usr/bin/ranlib ../../lib/libArcherFactory.a

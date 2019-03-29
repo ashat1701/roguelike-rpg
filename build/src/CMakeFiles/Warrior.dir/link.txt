@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libWarrior.a  CMakeFiles/Warrior.dir/Enemy/Warrior.cpp.o
+/usr/bin/ranlib ../../lib/libWarrior.a

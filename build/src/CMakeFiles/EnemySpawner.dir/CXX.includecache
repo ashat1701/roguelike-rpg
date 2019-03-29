@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/toor/tp_game_project/src/Enemy/Enemy.h
+string
+-
+
+/home/toor/tp_game_project/src/Enemy/EnemyFactory.h
+Enemy.h
+/home/toor/tp_game_project/src/Enemy/Enemy.h
+string
+-
+
+/home/toor/tp_game_project/src/EnemySpawner.cpp
+EnemySpawner.h
+/home/toor/tp_game_project/src/EnemySpawner.h
+
+/home/toor/tp_game_project/src/EnemySpawner.h
+WorldState.h
+/home/toor/tp_game_project/src/WorldState.h
+Enemy/EnemyFactory.h
+/home/toor/tp_game_project/src/Enemy/EnemyFactory.h
+Enemy/Enemy.h
+/home/toor/tp_game_project/src/Enemy/Enemy.h
+vector
+-
+
+/home/toor/tp_game_project/src/WorldState.h
+

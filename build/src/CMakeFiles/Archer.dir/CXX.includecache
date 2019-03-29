@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/toor/tp_game_project/src/Enemy/Archer.cpp
+Archer.h
+/home/toor/tp_game_project/src/Enemy/Archer.h
+
+/home/toor/tp_game_project/src/Enemy/Archer.h
+Enemy.h
+/home/toor/tp_game_project/src/Enemy/Enemy.h
+
+/home/toor/tp_game_project/src/Enemy/Enemy.h
+string
+-
+

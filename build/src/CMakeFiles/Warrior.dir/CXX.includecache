@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/toor/tp_game_project/src/Enemy/Enemy.h
+string
+-
+
+/home/toor/tp_game_project/src/Enemy/Warrior.cpp
+Warrior.h
+/home/toor/tp_game_project/src/Enemy/Warrior.h
+
+/home/toor/tp_game_project/src/Enemy/Warrior.h
+Enemy.h
+/home/toor/tp_game_project/src/Enemy/Enemy.h
+
