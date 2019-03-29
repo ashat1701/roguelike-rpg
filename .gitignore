@@ -35,13 +35,16 @@
 
 #IDE files
 *.idea
+*.vs
 
 CMakeCache.txt
 Makefile
 bin/
 build/
 CMakeFiles/
+Debug/
 cmake_install.cmake
 CTestTestfile.cmake
 compile_comands.json
 
+*.ipch

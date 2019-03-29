@@ -7,8 +7,7 @@ public:
 	virtual Enemy* Create() const = 0;
 	EnemyFactory(const std::string& type);
 	EnemyFactory() = default;
-	virtual ~EnemyFactory() = 0;
+	virtual ~EnemyFactory();
 protected:
 	std::string type;
 };
-
