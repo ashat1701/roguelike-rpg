@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libWorldState.a  CMakeFiles/WorldState.dir/WorldState.cpp.o
-/usr/bin/ranlib ../../lib/libWorldState.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libArcher.a  CMakeFiles/Archer.dir/Enemy/Archer.cpp.o
-/usr/bin/ranlib ../../lib/libArcher.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libEnemySpawner.a  CMakeFiles/EnemySpawner.dir/EnemySpawner.cpp.o
-/usr/bin/ranlib ../../lib/libEnemySpawner.a
