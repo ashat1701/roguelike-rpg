@@ -18,11 +18,11 @@ int main() {
 	std::cout << "how many enemies you want to spawn?" << std::endl;
 	int count; std::cin >> count;
 	for (int i = 0; i < count; ++i) {
-        Enemy *enemy = Spawner.Spawn();
+        	Enemy *enemy = Spawner.Spawn();
 		std::cout << enemy->Message() << std::endl;
-        delete enemy;
+		delete enemy;
 	}
-    delete archerFactory;
-    delete warriorFactory;
+	delete archerFactory;
+	delete warriorFactory;
 	return 0;
 }
