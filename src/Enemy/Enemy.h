@@ -5,7 +5,7 @@ class Enemy {
 public:
 	virtual void EnemyMethod() = 0;
 	Enemy() = default;
-	virtual ~Enemy() = 0;
+	virtual ~Enemy() = default;
 	int GetHealth();
 	int GetMana();
     void SetHealth(int health);

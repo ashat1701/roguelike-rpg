@@ -1,6 +1,6 @@
 #include "EnemySpawner.h"
 
-void EnemySpawner::AddEnemyFactory(const EnemyFactory* EnemyFactory) {
+void EnemySpawner::AddEnemyFactory(EnemyFactory* EnemyFactory) {
     EnemySpawner::EnemyFactories.push_back(EnemyFactory);
 }
 

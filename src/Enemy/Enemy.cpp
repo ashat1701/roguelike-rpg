@@ -1,4 +1,4 @@
-#include "enemy.h"
+#include "Enemy.h"
 
 int Enemy::GetHealth() {
 	return health;
