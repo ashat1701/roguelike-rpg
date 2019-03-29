@@ -1,43 +1,44 @@
 #pragma once
 #include <gtest/gtest.h>
-#include "enemies/Archer.h"
+#include "Enemy/Archer.h"
+#include "Enemy/Warrior.h"
 
-class TestArcher : public testing:Test {
+class TestArcher : public testing::Test {
     protected:
         Archer *archer;
         void SetUp() {
             archer = new Archer("snow");
             archer->SetMana(10);
-            archer->SetHeath(100);
+            archer->SetHealth(100);
         }
         void TearDown() { delete archer; }
 };
 
 TEST_F(TestArcher, Test1) {
     Enemy *pointer = archer;
-    ASSERT_EQ(archer->getMana(), pointer->getMana());
+    ASSERT_EQ(archer->GetMana(), pointer->GetMana());
 }
 
 TEST_F(TestArcher, Test2) {
-    ASSERT_EQ(archer->getMana(), 10);
+    ASSERT_EQ(archer->GetMana(), 10);
 }
 
-class TestMelee : public testing:Test {
+class TestWarrior : public testing::Test {
     protected:
-        Melee *melee;
+        Warrior *warrior;
         void SetUp() {
-            melee = new Archer("snow");
-            melee->SetMana(10);
-            melee->SetHeath(100);
+            warrior = new Warrior("sand");
+            warrior->SetMana(10);
+            warrior->SetHealth(100);
         }
-        void TearDown() { delete melee; }
+        void TearDown() { delete warrior; }
 };
 
-TEST_F(TestMelee, Test1) {
-    Enemy *pointer = melee;
-    ASSERT_EQ(melee->getMana(), pointer->getMana());
+TEST_F(TestWarrior, Test1) {
+    Enemy *pointer = warrior;
+    ASSERT_EQ(warrior->GetMana(), pointer->GetMana());
 }
 
-TEST_F(TestMelee, Test2) {
-    ASSERT_EQ(melee->getMana(), 10);
+TEST_F(TestWarrior, Test2) {
+    ASSERT_EQ(warrior->GetMana(), 10);
 }

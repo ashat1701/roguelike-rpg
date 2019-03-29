@@ -6,8 +6,8 @@
 
 class EnemySpawner {
 public:
-	void AddEnemyFactory(const EnemyBuilder* EnemyFactory)
-    Enemy Spawn();
+	void AddEnemyFactory(const EnemyFactory* EnemyFactory);
+    Enemy* Spawn();
 private:
 	std::vector<EnemyFactory*> EnemyFactories;
 };

@@ -1,21 +1,24 @@
 #pragma once
 #include <gtest/gtest.h>
-#include "Spawner.h"
+#include "EnemySpawner.h"
+#include "Enemy/ArcherFactory.h"
+#include "Enemy/WarriorFactory.h"
 
-class TestSpawner : public testing:Test {
+class TestSpawner : public testing::Test {
     protected:
-        Spawner *archer;
+        EnemySpawner *spawner;
         void SetUp() {
-            archer = new Archer("snow");
-            archer->SetMana(10);
-            archer->SetHeath(100);
+            spawner = new EnemySpawner();
         }
-        void TearDown() { delete archer; }
+        void TearDown() { delete spawner; }
 };
 
-TEST_F(TestArcher, Test1) {
-    Enemy *pointer = archer;
-    ASSERT_EQ(archer->getMana(), pointer->getMana());
+TEST_F(TestSpawner, Test1) {
+    ArcherFactory *factory = new ArcherFactory("sand");
+    spawner->AddEnemyFactory(factory);
+    Enemy *enemy = spawner->Spawn();
+    ASSERT_NO_THROW(1 / (dynamic_cast<Archer *>(enemy)->GetType() == "sand"));
+    // TODO: Fix this sh*t
 }
 
 

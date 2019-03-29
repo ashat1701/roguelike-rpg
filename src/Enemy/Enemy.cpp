@@ -11,3 +11,5 @@ int Enemy::GetMana() {
 Enemy::Enemy(const std::string & type) {
 	this->type = type;
 }
+
+// TODO: Setters for all fields and Getter for type!!

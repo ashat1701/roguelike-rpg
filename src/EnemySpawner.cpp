@@ -5,3 +5,4 @@ void EnemySpawner::AddEnemyFactory(const EnemyFactory* EnemyFactory) {
 }
 
 
+// TODO: Implement Spawn() method to test it

@@ -4,7 +4,7 @@
 
 class ArcherFactory : public EnemyFactory {
 public:
-	ArcherBuilder(const std::string& type);
+	ArcherFactory(const std::string& type);
 	Archer* Create() const override;
 private:
 };

@@ -2,16 +2,16 @@
 #include <gtest/gtest.h>
 #include "WorldState.h"
 
-class TestWorld : public testing:Test {
+class TestWorld : public testing::Test {
     protected:
         WorldState *state;
         void SetUp() {
-            state = new WorldState();
+            state =  &(WorldState::GetInstance());
         }
         void TearDown() { delete state; }
 };
 
-TEST_F(TestArcher, Test1) {
-    WorldState state2 = WorldState.getInstance();
-    ASSERT_EQ(*state2, state);
+TEST_F(TestWorld, Test1) {
+    WorldState &state2 = WorldState::GetInstance();
+    ASSERT_EQ(&state2, state);
 }

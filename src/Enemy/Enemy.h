@@ -8,6 +8,10 @@ public:
 	virtual ~Enemy() = 0;
 	int GetHealth();
 	int GetMana();
+    void SetHealth(int health);
+    void SetMana(int mana);
+    std::string GetType();
+    void SetType(std::string type);
 	Enemy(const std::string& type);
 protected:
 	int health;

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/toor/tp_game_project/tests/build",
+  "command": "/usr/bin/c++   -I/home/toor/tp_game_project/tests/.. -I/home/toor/tp_game_project/tests/../src    -Wall -std=c++0x -D HOME -o CMakeFiles/executeTests.dir/StartTests.cpp.o -c /home/toor/tp_game_project/tests/StartTests.cpp",
+  "file": "/home/toor/tp_game_project/tests/StartTests.cpp"
+}
+]
