@@ -1,9 +1,13 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 #include "EnemySpawner.h"
 #include "Enemy/ArcherFactory.h"
 #include "Enemy/WarriorFactory.h"
 
 int main() {
+
+	srand(time(NULL));
 	EnemySpawner Spawner;
 
 	EnemyFactory* archerFactory = new ArcherFactory("snow");
